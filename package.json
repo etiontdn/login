@@ -1,5 +1,5 @@
 {
-  "name": "login",
+  "name": "login-model",
   "version": "1.0.0",
   "description": "practice login page",
   "main": "index.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/etiontdn/login.git"
+    "url": "git+https://github.com/etiontdn/login-model.git"
   },
   "author": "etiontdn <etiontdn@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/etiontdn/login/issues"
+    "url": "https://github.com/etiontdn/login-model/issues"
   },
-  "homepage": "https://github.com/etiontdn/login#readme",
+  "homepage": "https://etiontdn.github.io/login-model",
   "dependencies": {},
   "devDependencies": {
     "sass": "^1.26.5"
