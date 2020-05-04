@@ -1,0 +1,24 @@
+{
+  "name": "login",
+  "version": "1.0.0",
+  "description": "practice login page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "sass css/master.scss css/master.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/etiontdn/login.git"
+  },
+  "author": "etiontdn <etiontdn@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/etiontdn/login/issues"
+  },
+  "homepage": "https://github.com/etiontdn/login#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "sass": "^1.26.5"
+  }
+}

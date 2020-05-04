@@ -1,0 +1,99 @@
+$color1: #4c4c4c;
+$color2: #677fd1;
+$colorborder: #c7c7c7;
+
+@use 'reset';
+
+.container {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  width: 100%;
+  max-width: 420px;
+  border: 1px solid $colorborder;
+
+  box-shadow: 12px 12px 12px rgba(0,0,0,0.075);
+
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  color: $color1;
+  a {
+    color: $color2;
+    text-decoration: none;
+  }
+
+  .form-container {
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    .form {
+      line-height: 2.3em;
+      display: flex;
+      flex-direction: column;
+      width: 80%;
+      input {
+        box-shadow: 0px 2px 2px rgba(0,0,0,0.075) inset;
+        border: 1px solid $color1;
+        border-radius: 2px;
+        padding: 4px;
+        margin-bottom: 12px;
+
+        &:focus {
+          box-shadow: 0px 2px 2px rgba(0,0,0,0.075) inset, 0 0px 8px rgba(82, 168, 236, 0.6);
+          border: 1px solid #528AEC;
+        }
+      }
+      .rates {
+        display: flex;
+        align-items: stretch;
+        font-size: 0.6em;
+        margin-bottom: 4px;
+      }
+      .phone-input {
+        margin-bottom: 0;
+      }
+
+      .submit-button {
+        display: flex;
+        color: white;
+        justify-content: center;
+        align-items: center;
+        background: $color2;
+        border-radius: 5px;
+        border: 1px solid $color2;
+        margin-top: 12px;
+        padding: 8px;
+        .submit-icon {
+          width: 24px;
+          height: 24px;
+          display: block;
+          background-size: 100%;
+          background: url(../images/lock.svg);
+        }
+        .create {
+          font-size: 22px;
+        }
+
+        margin-bottom: 42px;
+      }
+    }
+  }
+
+  .terms {
+    text-align: center;
+    width: 80%;
+    font-size: 0.8em;
+    padding: 5px;
+    margin-bottom: 24px;
+  }
+}
