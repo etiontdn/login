@@ -5,8 +5,9 @@ $colorborder: #c7c7c7;
 @use 'reset';
 $link: #677fd1;
 
-
 @import "../node_modules/bulma/bulma.sass";
+
+
 
 .header {
   border-bottom: 2px solid $light;
@@ -51,5 +52,27 @@ ul.help li span.icon i.material-icons {
 
 
 section.container.section {
-  max-width: 420px;
+  max-width: 470px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+
+@media only screen and (min-width: $desktop) {
+  section.container.section {
+    padding: 50px;
+  }
+}
+
+@media only screen and (max-width: $tablet) {
+  .hero .hero-body {
+    padding: 0;
+  }
+}
+.submit-button {
+  padding-top: 12px;
+}
+
+.terms-text {
+  padding-top: 25px;
 }
